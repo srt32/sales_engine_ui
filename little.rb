@@ -12,6 +12,6 @@ Shoes.app do
       @text = para ""
       @merchant.click do
         @text.replace @mr.find_all_by_id(@input.text).first.name
-    end
+     end
   end
 end
